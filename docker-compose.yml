@@ -6,7 +6,7 @@ services:
     image: mysql:5.7
     volumes:
       - db_data:/var/lib/mysql
-    restart: alwaysd
+    restart: always
     environment:
       #MYSQL_ROOT_PASSWORD: test
       #MYSQL_DATABASE: test
